@@ -20,7 +20,7 @@ jobs:
   scaffold-service:
     runs-on: ubuntu-latest
     env:
-      ORG_NAME: royhadad
+      ORG_NAME: emekanwaoma
 
     steps:
       - uses: actions/checkout@v4
