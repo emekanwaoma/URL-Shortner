@@ -65,9 +65,7 @@ jobs:
           title: "${{ inputs.service_name }} Service"
           blueprint: "service"
           relations: |
-            {
-              "repository": "${{ env.ORG_NAME }}/${{ inputs.service_name }}"
-            }
+            { "repository": "${{ inputs.service_name }}" }
 
       - name: Create a log message
         uses: port-labs/port-github-action@v1
